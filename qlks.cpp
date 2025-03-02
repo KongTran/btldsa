@@ -20,7 +20,10 @@ public:
     // Destructor to free dynamically allocated memory
     ~Hotel() {
         delete[] rooms;
-    }
+    }     
+
+
+    
 
     // Check-in a guest
     void checkIn(const string& guestName) {
