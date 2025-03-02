@@ -22,9 +22,6 @@ public:
         delete[] rooms;
     }     
 
-
-    
-
     // Check-in a guest
     void checkIn(const string& guestName) {
         for (int i = 0; i < totalRooms; ++i) {
